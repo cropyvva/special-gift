@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Special Gift</title>
+
+    <style>
+      body {
+        height: 1500px;
+        margin: 0;
+      }
+
+      div {
+        font-family: Arial;
+      }
+
+      .wallpaper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        display: flex;
+      }
+
+      .picture {
+        flex: 1;
+        object-fit: cover;
+        object-position: top;
+      }
+
+      .step{
+        background-color: white;
+        width: 300px;
+        height: 60px;
+        padding: 10px 5px 10px 5px;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .first-step {
+        top: 50px;
+        left: 20px;
+      }
+
+      .second-step {
+        top: 382.5px;
+        right: 20px;
+      }
+
+      .third-step {
+        top: 715px;
+        left: 20px;
+      }
+
+      .fourth-step {
+        top: 1047.7px;
+        right: 20px;
+      }
+
+      .fifth-step {
+        top: 1380px;
+        left: 20px;
+      }
+
+      .question {
+        margin-bottom: 10px;
+      }
+
+      .agree-button {
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        padding: 5px 10px 5px 10px;
+        cursor: default;
+        text-decoration: none;
+      }
+
+      .pink-button {
+        background-color: rgb(255, 165, 196);
+      }
+
+      .black-button:active {
+        background-color: rgb(110, 110, 110);
+      }
+
+      .pink-button:active {
+        background-color: rgb(222, 109, 149);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="wallpaper">
+        <img class="picture" src="animegirl.jpeg">
+      </div>
+    
+      <div class="first-step step">
+        <div class="question">
+          Сумуєш?
+        </div>
+        <div>
+          <a class="black-button agree-button" 
+          href="https://www.youtube.com/watch?v=9fpgbCB7MI4&ab_channel=SunnyBriKitten">
+          Так</a>
+        </div>
+      </div>
+      <div class="second-step step">
+        <div class="question">
+          Любиш мене?
+        </div>
+        <div>
+          <a class="pink-button agree-button"
+          href="https://www.youtube.com/watch?v=9fpgbCB7MI4&ab_channel=SunnyBriKitten">
+            Так</a>
+        </div>
+      </div>
+      <div class="third-step step">
+        <div class="question">
+          Будемо разом?
+        </div>
+        <div>
+          <a class="black-button agree-button"
+          href="https://www.youtube.com/watch?v=9fpgbCB7MI4&ab_channel=SunnyBriKitten">
+            Так</a>
+        </div>
+      </div>
+      <div class="fourth-step step">
+        <div class="question">
+          За ручки ходитимемо?
+        </div>
+        <div>
+          <a class="pink-button agree-button"
+          href="https://www.youtube.com/watch?v=9fpgbCB7MI4&ab_channel=SunnyBriKitten">
+          Так</a>
+        </div>
+      </div>
+      <div class="fifth-step step">
+        <div class="question">
+          Цукерочки їстимемо?
+        </div>
+        <div>
+          <a class="black-button agree-button"
+          href="https://drive.google.com/file/d/1tHgOWz3R0CLjbiiYLca4NGCWXB0WjqUE/view">
+            Так</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
